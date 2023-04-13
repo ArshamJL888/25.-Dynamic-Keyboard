@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #212121;
+}
+
+.container {
+    width: 1500px;
+    height: 700px;
+    margin: 75px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.text {
+    margin: 30px auto;
+    width: 1400px;
+    padding: 5px;
+    padding-top: 12.5px;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 550;
+    color: white;
+}
+
+.keyboard {
+    width: 1300px;
+    margin: 10px auto;
+    padding: 10px;
+    margin-top: 0;
+    height: 450px;
+}
+
+.footerText {
+    padding-top: 20px;
+    width: 700px;
+    margin: 20px auto;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 550;
+    text-align: center;
+    vertical-align: middle;
+    color: whitesmoke;
+}
+
+.ordinary {
+    width: 37.5px;
+    height: 32.5px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px outset black;
+    float: left;
+    margin: 10px;
+    margin-top: 2px;
+    padding-top: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+.r1-control {
+    float: left;
+    width: 80px;
+    height: 32.5px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px outset black;
+    margin: 9px;
+    margin-top: 2px;
+    padding-top: 12px;
+}
+
+.r2-control {
+    float: left;
+    width: 95px;
+    height: 32.5px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px outset black;
+    margin: 9px;
+    margin-top: 2px;
+    padding-top: 12px;
+}
+.r3-control {
+    float: left;
+    width: 128px;
+    height: 32.5px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 9px;
+    margin-top: 2px;
+    padding-top: 12px;
+}
+i {
+    margin-right: 3px;
+    font-size: 22px;
+}
+
+.space {
+    float: left;
+    width: 185px;
+    height: 32.5px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px outset black;
+    margin: 9px;
+    margin-top: 2px;
+    padding-top: 12px;
+}
+.row {
+    width: 1000px;
+    height: 50px;
+    padding: 5px;
+    padding-right: 0;
+    padding-left: 10px;
+    margin: 23px auto;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+.red {
+    background-color: crimson;
+    border: none;;
+}
+.coral{
+    background-color: coral;
+    border: none;;
+}
+.orange {
+    background-color: darkorange;
+    border: none;;
+}
+.gold{
+    background-color: gold;
+    border: none;;
+
+}
+.khaki {
+    background-color: khaki;
+    border: none;;
+}
+
+.clickMode{
+    transform: scale(0.8) ;
+}
+
+.capsOn {
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: white;
+    float: right;
+}
